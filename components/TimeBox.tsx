@@ -50,9 +50,9 @@ export function TimeBox() {
           </div>
         ) : (
           <div className="flex items-center justify-center FontMassis  ">
-            <TimeBoxItem label="Օր" value={timeLeft.days} /> <span className="w-12 rotate-90 h-[1px] bg-[#2D2D2D]"></span>
-            <TimeBoxItem label="Ժամ" value={timeLeft.hours} /> <span className="w-12 rotate-90 h-[1px] bg-[#2D2D2D]"></span>
-            <TimeBoxItem label="Րոպե" value={timeLeft.minutes} /> <span className="w-12 rotate-90 h-[1px] bg-[#2D2D2D]"></span>
+            <TimeBoxItem label="Օր" value={timeLeft.days} /> <span className="w-12 rotate-90 h-px  bg-[#2D2D2D]"></span>
+            <TimeBoxItem label="Ժամ" value={timeLeft.hours} /> <span className="w-12 rotate-90 h-px  bg-[#2D2D2D]"></span>
+            <TimeBoxItem label="Րոպե" value={timeLeft.minutes} /> <span className="w-12 rotate-90 h-px  bg-[#2D2D2D]"></span>
             <TimeBoxItem label="Վրկ." value={timeLeft.seconds} />
           </div>
         )}

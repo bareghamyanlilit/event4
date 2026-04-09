@@ -1,7 +1,6 @@
 import { anim, program } from "@/data/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaMapMarkedAlt } from "react-icons/fa";
 
 export function Program() {
   return (
