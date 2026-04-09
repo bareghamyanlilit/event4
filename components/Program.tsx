@@ -43,7 +43,7 @@ const ProgramItem = ({ time, title, address }) => {
     <div
       className={`text-vrayi  tracking-widest FontMassis my-8 flex items-center  gap-6 ${title == "Հարսնացուի տուն" || title == "Հարսանյաց սրահ" ? "justify-start" : "justify-end"}`}
     >
-      <motion.p {...anim} className={`bg-[#F2F2F2] z-0  absolute opacity-10 text-[66px] text-[#d1d1d1] ${title == "Հարսնացուի տուն" || title == "Հարսանյաց սրահ" ? "right-0" : "left-0"}`}>
+      <motion.p {...anim} className={`bg-[#fafafa] z-0  absolute opacity-10 text-[66px] text-[#d1d1d1] ${title == "Հարսնացուի տուն" || title == "Հարսանյաց սրահ" ? "right-0" : "left-0"}`}>
         {time}
       </motion.p>
       <div

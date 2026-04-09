@@ -6,7 +6,7 @@ export function Footer() {
 
       <Link href="https://www.instagram.com/siteup.am/">
         <p className="FontMassis mt-2">
-          Պատրաստվել է siteup.am - կողմից կողմից
+          Պատրաստվել է siteup.am -ի  կողմից 
         </p>
       </Link>
     </footer>
