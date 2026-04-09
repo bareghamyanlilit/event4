@@ -19,7 +19,7 @@ export default function Home() {
     <div className=" bg-[#F2F2F2] max-w-xl overflow-hidden m-auto">
       {/* open */}
       <div
-        className={`bg-no-repeat justify-self-center bg-center bg-cover text-xl fixed z-100 w-full h-full flex flex-col gap-10 justify-center items-center text-white transition ${open ? "hidden -z-10" : ""}`}
+        className={`bg-no-repeat  max-w-xl justify-self-center bg-center bg-cover text-xl fixed z-100 w-full h-full flex flex-col gap-10 justify-center items-center text-white transition ${open ? "hidden -z-10" : ""}`}
         style={{
           backgroundImage: "url('/first copy.jpg')",
         }}
