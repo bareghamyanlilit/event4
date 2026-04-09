@@ -41,7 +41,7 @@ export default function Home() {
         <div>
           <button
             onClick={() => setIsPlaying(!isPlaying)}
-            className="fixed z-10 bg-[#4A4A4A70] right-5 top-6 rounded-[10px] w-17.5 h-17.5 flex justify-center items-center"
+            className="fixed z-10 bg-[#4A4A4A70] right-5 top-6 rounded-[10px] w-16 h-16flex justify-center items-center"
           >
             <Image
               src="/musIcon.png"
@@ -65,13 +65,13 @@ export default function Home() {
           <h1 className=" text-[#F2F2F2]  FontMassis text-4xl  text-">
             {text.firstwho}
           </h1>
-          <p className="text-[#F2F2F2]  mt-10 mb-10 FontMassis text-[32px]">
+          <p className="text-[#F2F2F2]  mt-10 mb-15 FontMassis text-[32px]">
             {text.firstTxt}
           </p>
         </div>
 
         <section className="text-center FontMassis tracking-[8%] px-5 py-15">
-          <motion.h2 {...anim} className="relative z-0 text-vrayi text-4xl">
+          <motion.h2 {...anim} className="tracking-widest relative z-0 text-vrayi text-4xl">
             Միջոցառմանը մնաց
             <p className=" absolute w-max -z-1 text-5xl top-2 left-1/2 -translate-x-1/2 text-hetevi ">
               Միջոցառմանը մնաց
@@ -79,10 +79,10 @@ export default function Home() {
           </motion.h2>
           <TimeBox />
 
-          <motion.h2 {...anim} className=" mb-5 font-bold text-2xl">
+          <motion.h2 {...anim} className=" mb-5 text-vrayi text-2xl">
             {text.title1}
           </motion.h2>
-          <motion.p {...anim} className=" text-2xl  opacity-90">
+          <motion.p {...anim} className=" text-2xl text-vrayi">
             {text.descr1}
           </motion.p>
         </section>
@@ -106,7 +106,7 @@ export default function Home() {
               <p className="text-5xl font-bold text-end ">DATE</p>
             </motion.div>
 
-            <motion.h2 {...anim} className=" FontMassis text-4xl">
+            <motion.h2 {...anim} className=" tracking-widest FontMassis text-4xl">
               {text.day}
             </motion.h2>
           </div>
@@ -127,9 +127,12 @@ export default function Home() {
         <Calendar year={2026} month={6} highlightDay={17} />
 
         {/* text info */}
-        <section className="text-center  px-2 py-8">
-          <motion.h2 {...anim} className="FontMassis my-4 text-vrayi text-2xl">
+        <section className="text-center  px-2 py-12">
+          <motion.h2 {...anim} className="relative z-1 FontMassis my-4 text-vrayi text-2xl">
             {text.txtEnd}
+            <p className=" absolute -z-1 w-max text-4xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-hetevi ">
+              {text.txtEnd}
+            </p>
           </motion.h2>
         </section>
 

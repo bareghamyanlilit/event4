@@ -7,7 +7,7 @@ export function Program() {
     <section className="px-5 py-12">
       <motion.h2
         {...anim}
-        className=" FontMassis relative z-0 text-center text-4xl mb-10 "
+        className=" tracking-widest FontMassis relative z-0 text-center text-4xl mb-10 "
       >
         Ժամանակացույց
         <p className="FontMassis w-max  absolute -z-1 text-5xl top-2 left-1/2 -translate-x-1/2 text-hetevi">
