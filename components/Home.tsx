@@ -94,13 +94,13 @@ export default function Home() {
             backgroundImage: "url('/second.jpg')",
           }}
         >
-          <div className="h-full backdrop-brightness-50 flex flex-col justify-center gap-30 text-center ">
+          <div className="h-full p-8 backdrop-brightness-50 flex flex-col justify-center gap-30 text-center ">
             <motion.div
               {...anim}
               className="relative w-[70%] mx-auto FontMassis flex flex-col gap-6"
             >
               <p className="text-5xl text-start font-bold">SAVE </p>
-              <p className="text-center absolute text-[#e3e3e353] -z-1 pr-8 w-full text-8xl">
+              <p className="text-center absolute text-[#e3e3e353] -z-1  w-full text-8xl">
                 The
               </p>
               <p className="text-5xl font-bold text-end ">DATE</p>
