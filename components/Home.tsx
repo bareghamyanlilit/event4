@@ -8,7 +8,6 @@ import { anim, text } from "@/data/data";
 import { Program } from "@/components/Program";
 import { TimeBox } from "@/components/TimeBox";
 import { Footer } from "./footer";
-import { GiPlayButton } from "react-icons/gi";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
 
   return (
     <div className=" bg-[#fafafa] max-w-xl overflow-hidden m-auto">
-      {/* open */}
+      {/* open */} 
       <div
         className={`bg-no-repeat  max-w-xl justify-self-center bg-center bg-cover text-xl fixed z-100 w-full h-full flex flex-col gap-10 justify-center items-center text-white transition ${open ? "hidden -z-10" : ""}`}
         style={{
@@ -50,11 +49,9 @@ export default function Home() {
               height={20}
               className="w-full p-3 invert-100"
             />
-          </button>
-
+          </button> 
           <MusicPlayer isPlaying={isPlaying} />
         </div>
-
         {/* 1 img */}
         <div
           className="min-h-screen text-[#F2F2F2]  max-w-xl m-auto bg-cover  bg-no-repeat  bg-center  text-vrayi flex flex-col items-center justify-end text-center p-8 "
@@ -62,7 +59,7 @@ export default function Home() {
             backgroundImage: "url('/first.jpg')",
           }}
         >
-          <h1 className=" text-[#F2F2F2]  FontMassis text-4xl  text-">
+          <h1 className=" text-[#F2F2F2] text-4xl  text-">
             {text.firstwho}
           </h1>
           <p className="text-[#F2F2F2]  mt-10 mb-15 FontMassis text-[32px]">
@@ -70,7 +67,7 @@ export default function Home() {
           </p>
         </div>
 
-        <section className="text-center FontMassis tracking-[8%] px-5 py-15">
+        <section className="text-center tracking-[8%] px-5 py-15">
           <motion.h2 {...anim} className="tracking-widest relative z-0 text-vrayi text-4xl">
             Միջոցառմանը մնաց
             <p className=" absolute w-max -z-1 text-5xl top-2 left-1/2 -translate-x-1/2 text-hetevi ">
