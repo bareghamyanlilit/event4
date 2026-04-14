@@ -67,7 +67,7 @@ export default function Home() {
           </p>
         </div>
 
-        <section className="text-center tracking-[8%] px-5 py-15">
+        <section className="text-center FontMassis tracking-[8%] px-5 py-15">
           <motion.h2 {...anim} className="tracking-widest relative z-0 text-vrayi text-4xl">
             Միջոցառմանը մնաց
             <p className=" absolute w-max -z-1 text-5xl top-2 left-1/2 -translate-x-1/2 text-hetevi ">
